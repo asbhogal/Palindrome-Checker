@@ -15,9 +15,25 @@ body {
   background-color: #1e1e1e;
 }
 
+@media only screen and (max-width: 500px) {
+  .container {
+    height: auto;
+    text-align: center;
+  }
+}
 body {
   font-family: "Inter Tight", sans-serif;
   color: #ccc;
+}
+
+button {
+  font-family: "Inter Tight", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.3125rem;
 }
 
 .container {
@@ -34,4 +50,26 @@ body {
 .container #palindrome-section {
   display: flex;
   flex-direction: column;
+}
+.container #palindrome-section #palindrome-user-input,
+.container #palindrome-section #palindrome-check {
+  height: 2.5rem;
+  margin-bottom: 0.625rem;
+  border-radius: 0.3125rem;
+}
+.container #palindrome-section #palindrome-check {
+  cursor: pointer;
+  background: #ccc;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+.container #palindrome-section #palindrome-check:hover {
+  background: #1e1e1e;
+  color: #ccc;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
 }/*# sourceMappingURL=style.css.map */

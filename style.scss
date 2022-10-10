@@ -17,5 +17,21 @@
     #palindrome-section {
         display: flex;
         flex-direction: column;
+        #palindrome-user-input,
+        #palindrome-check {
+            height: 2.5rem;
+            margin-bottom: .625rem;
+            border-radius: .3125rem;
+        }
+        #palindrome-check {
+            cursor: pointer;
+            background: #ccc;
+            @include cross-browser-support-transition-set;
+            &:hover {
+                background: #1e1e1e;
+                color: #ccc;
+                @include cross-browser-support-transition-set;
+            }
+        }
     }
 }
