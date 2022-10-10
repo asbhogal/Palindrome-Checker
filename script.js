@@ -1,6 +1,21 @@
 /* create variables*/
 
+const rawTextInput = document.querySelector('#palindrome-user-input');
+
+
+
+rawTextInput.addEventListener('keyup', () => {
+    let filteredTextInput = rawTextInput.value.replace(/[^A-Z0-9]/ig, "");
+    console.log(filteredTextInput);
+})
+
+
+
+
+
+
 /* store input*/
+
 
 /*reverse and store reverse*/
 
