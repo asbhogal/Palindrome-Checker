@@ -2,7 +2,7 @@
 
 <h1>Palindrome Checker</h1>
 
-![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/Palindrome-Checker/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/Palindrome-Checker?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/Palindrome-Checker?color=blueviolet&style=for-the-badge&labelColor=000)
+![](https://api.checklyhq.com/v1/badges/checks/ab42fb98-e534-45c1-b42f-865e97874835?style=for-the-badge&theme=dark)![](https://api.checklyhq.com/v1/badges/checks/ab42fb98-e534-45c1-b42f-865e97874835?style=for-the-badge&theme=dark&responseTime=true)<br><br>![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/Palindrome-Checker/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/Palindrome-Checker?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/Palindrome-Checker?color=blueviolet&style=for-the-badge&labelColor=000)
 
 </div>
 
