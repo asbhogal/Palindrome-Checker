@@ -45,7 +45,7 @@ h2 {
   padding: 1.25rem 1.87rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .container #palindrome-section {
   display: flex;
