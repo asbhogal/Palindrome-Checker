@@ -58,12 +58,13 @@ h2 {
   border-radius: 0.3125rem;
 }
 .container #palindrome-section #palindrome-check {
-  cursor: pointer;
   background: #ccc;
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
+  pointer-events: none;
+  color: #4b4b4b;
 }
 .container #palindrome-section #palindrome-check:hover {
   background: #1e1e1e;
@@ -72,4 +73,16 @@ h2 {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
+}
+.container #palindrome-section #palindrome-check.active {
+  pointer-events: all !important;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  color: #111 !important;
+  cursor: pointer;
+}
+.container #palindrome-section #palindrome-check.active:hover {
+  color: #ccc !important;
 }/*# sourceMappingURL=style.css.map */

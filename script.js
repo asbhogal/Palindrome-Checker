@@ -1,12 +1,17 @@
 /* create variables*/
 
 const rawTextInput = document.querySelector('#palindrome-user-input');
-
+const checkBtn = document.querySelector('#palindrome-check');
 
 
 rawTextInput.addEventListener('keyup', () => {
     let filteredTextInput = rawTextInput.value.replace(/[^A-Z0-9]/ig, "");
     console.log(filteredTextInput);
+    if (filteredTextInput) {
+        return checkBtn.classList.add('active');
+    } else {
+        checkBtn.classList.remove('active');
+    }
 })
 
 
