@@ -2,17 +2,29 @@
 
 const rawTextInput = document.querySelector('#palindrome-user-input');
 const checkBtn = document.querySelector('#palindrome-check');
+let filteredTextInput;
 
+checkBtn.addEventListener("click", () => {
+    let reversedFilteredInput = filteredTextInput.split("").reverse().join("");
+    console.log(filteredTextInput, reversedFilteredInput);
 
-rawTextInput.addEventListener('keyup', () => {
-    let filteredTextInput = rawTextInput.value.replace(/[^A-Z0-9]/ig, "");
-    console.log(filteredTextInput);
+    if (filteredTextInput != reversedFilteredInput) {
+        document.getElementById('output-of-check').innerHTML = "No, " + rawTextInput.value + " " + "is not a palindrome, try again!";
+        return console.log("Not a palindrome");
+    }
+        document.getElementById('output-of-check').innerHTML = "Yes, " + rawTextInput.value + " " + "is a palindrome!";
+        console.log("Palindrome")
+});
+
+rawTextInput.addEventListener('keypress', () => {
+    filteredTextInput = rawTextInput.value.replace(/[^A-Z0-9]/ig, "");
+    
     if (filteredTextInput) {
         return checkBtn.classList.add('active');
     } else {
         checkBtn.classList.remove('active');
     }
-})
+});
 
 
 
