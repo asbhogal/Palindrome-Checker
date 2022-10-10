@@ -75,14 +75,14 @@ h2 {
   -o-transition: all 0.3s ease-in;
 }
 .container #palindrome-section #palindrome-check.active {
-  pointer-events: all !important;
+  pointer-events: auto;
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
-  color: #111 !important;
+  color: #111;
   cursor: pointer;
 }
 .container #palindrome-section #palindrome-check.active:hover {
-  color: #ccc !important;
+  color: #ccc;
 }/*# sourceMappingURL=style.css.map */

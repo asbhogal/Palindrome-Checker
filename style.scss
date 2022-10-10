@@ -34,12 +34,12 @@
                 @include cross-browser-support-transition-set;
             }
             &.active {
-                pointer-events: all !important;
+                pointer-events: auto;
                 @include cross-browser-support-transition-set;
-                color: #111 !important;
+                color: #111;
                 cursor: pointer;
                 &:hover {
-                    color: #ccc !important;
+                    color: #ccc;
                 }
             }
         }
