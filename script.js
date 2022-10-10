@@ -3,7 +3,7 @@
 const rawTextInput = document.querySelector('#palindrome-user-input');
 const checkBtn = document.querySelector('#palindrome-check');
 let filteredTextInput;
-let checkOutputMessage = document.getElementById('output-of-check').innerHTML;
+let checkOutputMessage = document.getElementById('output-of-check');
 
 checkBtn.addEventListener("click", () => {
     let reversedFilteredInput = filteredTextInput.  split("").
@@ -12,15 +12,13 @@ checkBtn.addEventListener("click", () => {
     console.log(filteredTextInput, reversedFilteredInput);
 
     if (filteredTextInput != reversedFilteredInput) {
-        checkOutputMessage = "Wrong";
-        document.getElementById('output-of-check').innerHTML = "No, " + rawTextInput.value + " " + "is not a palindrome, try again!";
+        return checkOutputMessage.innerHTML = "No, " + rawTextInput.value + " " + "is not a palindrome, try again!";
     }
-        document.getElementById('output-of-check').innerHTML = "Yes, " + rawTextInput.value + " " + "is a palindrome!";
-        console.log(rawTextInput.value);
+        return checkOutputMessage.innerHTML = "Yes, " + rawTextInput.value + " " + "is a palindrome!";
 })
 
 rawTextInput.addEventListener('keyup', () => {
-    filteredTextInput = rawTextInput.value.replace(/[^A-Z0-9]/ig, "");
+    filteredTextInput = rawTextInput.value.toLowerCase().replace(/[^A-Z0-9]/ig, "");
     
     if (filteredTextInput) {
         return checkBtn.classList.add('active');
