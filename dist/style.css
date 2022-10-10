@@ -1,1 +1,37 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+*:is(*::after, *::before, *) {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1e1e1e;
+}
+
+body {
+  font-family: "Inter Tight", sans-serif;
+  color: #ccc;
+}
+
+.container {
+  height: 25rem;
+  width: 36.5rem;
+  border: 2px solid #aaa;
+  background: #111;
+  border-radius: 0.625rem;
+  padding: 1.25rem 1.87rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container #palindrome-section {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../src/partials/_typography.scss","../src/partials/_globals.scss","../style.scss"],"names":[],"mappings":"AAAQ;ACAR;EACI;EACA;;AACA;EACI;;;AAIR;EACI;EACA;EACA;EACA;EACA;;;ADXJ;EACI;EACA;;;AEEJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;EACA","file":"style.css"}

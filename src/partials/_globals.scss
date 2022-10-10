@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    &:is(&::after, &::before, *) {
+        box-sizing: border-box;
+    }
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
