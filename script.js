@@ -12,9 +12,9 @@ checkBtn.addEventListener("click", () => {
     console.log(filteredTextInput, reversedFilteredInput);
 
     if (filteredTextInput != reversedFilteredInput) {
-        return checkOutputMessage.innerHTML = "No, " + rawTextInput.value + " " + "is not a palindrome, try again!";
+        return checkOutputMessage.innerHTML = `No, ${rawTextInput.value} is not a palindrome, try again!`;
     }
-        return checkOutputMessage.innerHTML = "Yes, " + rawTextInput.value + " " + "is a palindrome!";
+        return checkOutputMessage.innerHTML = `Yes, ${rawTextInput.value} is a palindrome!`;
 })
 
 rawTextInput.addEventListener('keyup', () => {
