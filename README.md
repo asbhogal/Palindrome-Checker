@@ -6,7 +6,7 @@
 
 </div>
 
-A simple tool which checks if a word entered is a palindrome (ie. one which reads the same backwards as frontwards e.g. level, refer) and created using vanilla HTML5 CSS3 (SCSS) and JavaScript.
+A simple tool which checks if a word entered is a palindrome (ie. one which reads the same backwards as frontwards e.g. level, refer) and informs the user whether it is or not. This has been created using vanilla HTML5, CSS3 (SCSS) and JavaScript.
 
 <strong>Features</strong>
  - Stylish, modern UI
