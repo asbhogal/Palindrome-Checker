@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap');
 
+@import 'variables';
+
 body {
     font-family: 'Inter Tight', sans-serif;
-    color: #ccc;
+    color: $font-color;
 }
 
 button {

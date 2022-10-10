@@ -24,22 +24,22 @@
             border-radius: .3125rem;
         }
         #palindrome-check {
-            background: #ccc;
+            background: $font-color;
             @include cross-browser-support-transition-set;
             pointer-events: none;
             color: #4b4b4b;
             &:hover {
                 background: #1e1e1e;
-                color: #ccc;
+                color: $font-color;
                 @include cross-browser-support-transition-set;
             }
             &.active {
                 pointer-events: auto;
                 @include cross-browser-support-transition-set;
-                color: #111;
+                color: #1e1e1e;
                 cursor: pointer;
                 &:hover {
-                    color: #ccc;
+                    color: $font-color;
                 }
             }
         }

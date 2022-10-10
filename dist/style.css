@@ -80,7 +80,7 @@ h2 {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
-  color: #111;
+  color: #1e1e1e;
   cursor: pointer;
 }
 .container #palindrome-section #palindrome-check.active:hover {
