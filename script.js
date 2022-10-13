@@ -1,9 +1,8 @@
-/* create variables*/
+const   rawTextInput = document.querySelector('#palindrome-user-input'),
+        checkBtn = document.querySelector('#palindrome-check');
 
-const rawTextInput = document.querySelector('#palindrome-user-input');
-const checkBtn = document.querySelector('#palindrome-check');
-let filteredTextInput;
-let checkOutputMessage = document.getElementById('output-of-check');
+let     filteredTextInput,
+        checkOutputMessage = document.getElementById('output-of-check');
 
 checkBtn.addEventListener("click", () => {
     let reversedFilteredInput = filteredTextInput.  split("").
