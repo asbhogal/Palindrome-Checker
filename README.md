@@ -10,8 +10,8 @@ A simple tool which checks if a word entered is a palindrome (ie. one which read
 
 <strong>Features</strong>
  - Stylish, modern UI
- - Responsive
- - Fully optimised for the web
+ - Full responsiveness
+ - Optimised for the web
 
  <strong>Stacks Used</strong>
 <br><br>
