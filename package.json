@@ -1,7 +1,7 @@
 {
   "name": "palindrome-checker",
   "version": "1.0.0",
-  "description": "<div align=\"center\">",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,10 @@
     "url": "git+https://github.com/asbhogal/Palindrome-Checker.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aman Singh Bhogal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/asbhogal/Palindrome-Checker/issues"
   },
-  "homepage": "https://github.com/asbhogal/Palindrome-Checker#readme"
+  "homepage": "https://github.com/asbhogal/Palindrome-Checker"
 }
