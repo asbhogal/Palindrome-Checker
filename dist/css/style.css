@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,15 +20,32 @@ body {
     text-align: center;
   }
 }
+/****** INTER TIGHT - 300 LIGHT ******/
+@font-face {
+  font-family: "Inter Tight";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../../fonts/InterTight-Light.woff"), format("woff"), url("../../fonts/InterTight-Light.woff2"), format("woff2");
+  font-display: swap;
+}
+/****** INTER TIGHT - 400 REGULAR ******/
+@font-face {
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/InterTight-Regular.woff"), format("woff"), url("../../fonts/InterTight-Regular.woff2"), format("woff2");
+  font-display: swap;
+}
 body {
   font-family: "Inter Tight", sans-serif;
+  font-weight: 300;
   color: #ccc;
 }
 
 button {
   font-family: "Inter Tight", sans-serif;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h2 {
