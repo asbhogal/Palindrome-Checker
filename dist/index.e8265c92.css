@@ -41,6 +41,13 @@ body {
 body {
   color: #ccc;
   font-family: Inter Tight, sans-serif;
+}
+
+body h1 {
+  font-weight: 400;
+}
+
+body h2 {
   font-weight: 300;
 }
 
