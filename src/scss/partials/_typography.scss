@@ -1,0 +1,44 @@
+@use 'variables' as *;
+
+/****** INTER TIGHT - 300 LIGHT ******/
+
+@font-face {
+    font-family: 'Inter Tight';
+    font-weight: 300;
+    font-style: normal;
+    src:    url(/src/fonts/InterTight-Light.woff), format('woff'),
+            url(/src/fonts/InterTight-Light.woff2), format('woff2');
+    font-display: swap;
+}
+
+/****** INTER TIGHT - 400 REGULAR ******/
+
+@font-face {
+    font-family: 'Inter Tight';
+    font-weight: 400;
+    font-style: normal;
+    src:    url(/src/fonts/InterTight-Regular.woff), format('woff'),
+            url(/src/fonts/InterTight-Regular.woff2), format('woff2');
+    font-display: swap;
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    color: $font-color;
+    h1 {
+        font-weight: 400;
+    }
+    h2 {
+        font-weight: 300;
+    }
+}
+
+button {
+    font-family: 'Inter Tight', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.3125rem;
+}
