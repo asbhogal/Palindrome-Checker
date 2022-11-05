@@ -6,8 +6,8 @@
     font-family: 'Inter Tight';
     font-weight: 300;
     font-style: normal;
-    src:    url('../../fonts/InterTight-Light.woff'), format('woff'),
-            url('../../fonts/InterTight-Light.woff2'), format('woff2');
+    src:    url(/src/fonts/InterTight-Light.woff), format('woff'),
+            url(/src/fonts/InterTight-Light.woff2), format('woff2');
     font-display: swap;
 }
 
@@ -17,8 +17,8 @@
     font-family: 'Inter Tight';
     font-weight: 400;
     font-style: normal;
-    src:    url('../../fonts/InterTight-Regular.woff'), format('woff'),
-            url('../../fonts/InterTight-Regular.woff2'), format('woff2');
+    src:    url(/src/fonts/InterTight-Regular.woff), format('woff'),
+            url(/src/fonts/InterTight-Regular.woff2), format('woff2');
     font-display: swap;
 }
 
