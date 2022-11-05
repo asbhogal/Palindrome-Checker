@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/asbhogal/Palindrome-Checker",
   "devDependencies": {
-    "sass": "^1.56.0"
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.0.0",
+    "sass": "^1.56.0",
+    "terser": "^5.15.1"
+  },
+  "resolutions": {
+    "node-forge": "0.10.0"
   }
 }
