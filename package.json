@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/asbhogal/Palindrome-Checker/issues"
   },
-  "homepage": "https://github.com/asbhogal/Palindrome-Checker"
+  "homepage": "https://github.com/asbhogal/Palindrome-Checker",
+  "devDependencies": {
+    "sass": "^1.56.0"
+  }
 }
